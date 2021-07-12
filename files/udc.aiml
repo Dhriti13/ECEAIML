@@ -4,4 +4,48 @@
     <pattern>*</pattern>
     <template>I have no answer for that.</template>
   </category>
+  <category>
+      <pattern>Hi</pattern>
+      <template>Hello,how can I help you</template>
+      <category>
+          <pattern>Hey</pattern>
+          <template><srai>Hi</srai></template>
+          </category>
+      </category>
+  
+  
+  <category>
+      <pattern>about button</pattern>
+      <template>
+          <button>
+      <text>click here</text>
+      <url>https://www.gitam.edu</url>
+  </button>
+ 
+      </template>
+  </category>
+   
+   <category>
+       <pattern>postback button</pattern>
+       <template>
+           <button>
+      <text>user side</text>
+      <postback>message you bot get is postback</postback>
+  </button>
+       </template>
+   </category>
+   <category>
+      <pattern>message your bot get is postback </pattern>
+      <template>This is how postback works</template>
+  </category>
+  <category>
+      <pattern>about the link</pattern>
+      <template>
+          <link>
+              <text>gitam website</text>
+              <url>https://www.gitam.edu</url>
+          </link>
+      </template>
+  </category>
+  
 </aiml>
