@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main(void) {
+  int count;
+  int num1, num2, num3
+
+  count=0;
+  while(count<5)
+  {
+    printf("count= %d\n",count);
+    printf("Enter Numbers :");
+    scanf(" %d, %d", &num1, &num2)
+    sum= num1 + num2;
+    printf(" %d + %d = %d\n",num1,num2,sum);
+
+    count=count+1;
+    printf("%d times executed\n---------------\n", count);
+        
+  }
+  return 0;
+}
