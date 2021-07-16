@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>I have no answer for that.</template>
+  </category>
+  <category>
+      <pattern>card template</pattern>
+      <template>
+          <card>
+      <image>https://filmdaily.co/quizzes/jimin-bts-quiz/</image>
+      <title>card</title>
+      <subtitle>example</subtitle>
+      <button>
+          <text>template</text>
+          <postback>got it</postback>
+      </button>
+           </card>
+      </template>
+  </category>
+  <category>
+      <pattern>about</pattern>
+      <template>
+          <carousel>
+              <card>
+                  <image>https://www.teenvogue.com/story/27-best-bts-moments-2019</image>
+                  <title>1</title>
+                  <subtitle>Hi</subtitle>
+                  <button>
+                      <text>Image</text>
+                      <postback>got it</postback>
+                  </button>
+              </card>
+          </carousel>
+      </template>
+  </category>
+</aiml>
